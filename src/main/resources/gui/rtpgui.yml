@@ -1,0 +1,29 @@
+# RTP GUI Configuration
+title: "&6Random Teleport"
+size: 27
+
+background:
+  material: "GREEN_STAINED_GLASS_PANE"
+  slots: [0,1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20,21,22,23,24,25,26]
+
+items:
+  rtp:
+    material: "COMPASS"
+    display-name: "&aRandom Teleport"
+    lore:
+      - "&7Teleport to a random safe location"
+      - "&7in the current world"
+      - ""
+      - "&eWorld: &f{world}"
+      - "&eRange: &f{min} - {max} blocks"
+      - "&eCooldown: &f{cooldown} seconds"  # UPDATED: Hiển thị RTP cooldown
+      - ""
+      - "&aClick to teleport randomly!"
+    custom-model-data: 0
+
+  close:
+    material: "BARRIER"
+    display-name: "&cClose"
+    lore:
+      - "&7Close the menu"
+    custom-model-data: 0

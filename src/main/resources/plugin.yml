@@ -1,0 +1,91 @@
+name: HyperTP
+version: 1.0.0
+main: com.hazee.hypertp.HyperTP
+api-version: "1.21"
+author: H_Azee
+description: Advanced teleportation plugin with GUI support
+website: https://hazee.dev
+load: POSTWORLD
+
+commands:
+  home:
+    description: Teleport to your homes
+    aliases: [home]
+    usage: /<command> [name]
+  sethome:
+    description: Set a new home
+    aliases: [sethome]
+    usage: /<command> <name>
+  delhome:
+    description: Delete a home
+    aliases: [delhome]
+    usage: /<command> <name>
+  homelist:
+    description: List all your homes in GUI
+    aliases: [homelist, homes]
+    usage: /<command>
+  tpa:
+    description: Send teleport request to player
+    aliases: [tpa]
+    usage: /<command> [player]
+  tpahere:
+    description: Request player to teleport to you
+    aliases: [tpahere]
+    usage: /<command> <player>
+  tpaccept:
+    description: Accept teleport request
+    aliases: [tpaccept, tpayes]
+    usage: /<command>
+  tpdeny:
+    description: Deny teleport request
+    aliases: [tpdeny, tpano]
+    usage: /<command>
+  back:
+    description: Return to previous location
+    aliases: [back]
+    usage: /<command>
+  rtp:
+    description: Random teleport
+    aliases: [rtp]
+    usage: /<command>
+  hypertp:
+    description: HyperTP main command
+    aliases: [hypertp, ht]
+    usage: /<command> [reload|help|version]
+
+permissions:
+  hypertp.*:
+    description: All HyperTP permissions
+    children:
+      hypertp.home: true
+      hypertp.sethome: true
+      hypertp.delhome: true
+      hypertp.tpa: true
+      hypertp.rtp: true
+      hypertp.back: true
+      hypertp.gui: true
+      hypertp.admin: true
+  hypertp.home:
+    description: Access to home commands
+    default: true
+  hypertp.sethome:
+    description: Access to sethome command
+    default: true
+  hypertp.delhome:
+    description: Access to delhome command
+    default: true
+  hypertp.tpa:
+    description: Access to TPA commands
+    default: true
+  hypertp.rtp:
+    description: Access to RTP command
+    default: true
+  hypertp.back:
+    description: Access to back command
+    default: true
+  hypertp.gui:
+    description: Access to GUI features
+    default: true
+  hypertp.admin:
+    description: Admin permissions (reload, etc.)
+    default: op

@@ -1,0 +1,72 @@
+# Home GUI Configuration
+title: "&6Homes - Page {page}"
+size: 54
+
+background:
+  material: "GRAY_STAINED_GLASS_PANE"
+  slots: [0,1,2,3,4,5,6,7,8,9,17,18,26,27,35,36,44,45,46,47,48,49,50,51,52,53]
+
+items:
+  home:
+    material: "GRASS_BLOCK"
+    display-name: "&6{home}"
+    lore:
+      - "&7World: &f{world}"
+      - "&7Location:"
+      - "&f  X: {x}"
+      - "&f  Y: {y}"
+      - "&f  Z: {z}"
+      - ""
+      - "&eClick to teleport!"
+    custom-model-data: 0
+
+  home-management:
+    material: "RED_BED"
+    display-name: "&6{home}"
+    lore:
+      - "&7World: &f{world}"
+      - "&7Location:"
+      - "&f  X: {x}"
+      - "&f  Y: {y}"
+      - "&f  Z: {z}"
+      - ""
+      - "&eClick to teleport"
+      - "&cShift + Click to delete"
+    custom-model-data: 0
+
+navigation:
+  previous-page:
+    material: "ARROW"
+    display-name: "&6Previous Page"
+    lore:
+      - "&7Go to previous page"
+    custom-model-data: 0
+
+  next-page:
+    material: "ARROW"
+    display-name: "&6Next Page"
+    lore:
+      - "&7Go to next page"
+    custom-model-data: 0
+
+  page-info:
+    material: "PAPER"
+    display-name: "&ePage {page}"
+    lore:
+      - "&7Current page: &e{page}"
+    custom-model-data: 0
+
+  back-to-homes:
+    material: "OAK_DOOR"
+    display-name: "&aBack to Homes"
+    lore:
+      - "&7Return to homes list"
+    custom-model-data: 0
+
+items:
+  close:
+    material: "BARRIER"
+    display-name: "&cClose"
+    lore:
+      - "&7Close the menu"
+    custom-model-data: 0

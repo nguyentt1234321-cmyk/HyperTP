@@ -1,0 +1,61 @@
+#==============================================================================================================================================================#                                                                                                                                                   
+#                                                                                                                                                              #
+#  HHHHHHHHH     HHHHHHHHH                                                                                TTTTTTTTTTTTTTTTTTTTTTTPPPPPPPPPPPPPPPPP             #
+#  H:::::::H     H:::::::H                                                                                T:::::::::::::::::::::TP::::::::::::::::P            #
+#  H:::::::H     H:::::::H                                                                                T:::::::::::::::::::::TP::::::PPPPPP:::::P           #
+#  HH::::::H     H::::::HH                                                                                T:::::TT:::::::TT:::::TPP:::::P     P:::::P          #
+#    H:::::H     H:::::Hyyyyyyy           yyyyyyyppppp   ppppppppp       eeeeeeeeeeee    rrrrr   rrrrrrrrrTTTTTT  T:::::T  TTTTTT  P::::P     P:::::P          #
+#    H:::::H     H:::::H y:::::y         y:::::y p::::ppp:::::::::p    ee::::::::::::ee  r::::rrr:::::::::r       T:::::T          P::::P     P:::::P          #
+#    H::::::HHHHH::::::H  y:::::y       y:::::y  p:::::::::::::::::p  e::::::eeeee:::::eer:::::::::::::::::r      T:::::T          P::::PPPPPP:::::P           #
+#    H:::::::::::::::::H   y:::::y     y:::::y   pp::::::ppppp::::::pe::::::e     e:::::err::::::rrrrr::::::r     T:::::T          P:::::::::::::PP            # 
+#    H:::::::::::::::::H    y:::::y   y:::::y     p:::::p     p:::::pe:::::::eeeee::::::e r:::::r     r:::::r     T:::::T          P::::PPPPPPPPP              #
+#    H::::::HHHHH::::::H     y:::::y y:::::y      p:::::p     p:::::pe:::::::::::::::::e  r:::::r     rrrrrrr     T:::::T          P::::P                      #
+#    H:::::H     H:::::H      y:::::y:::::y       p:::::p     p:::::pe::::::eeeeeeeeeee   r:::::r                 T:::::T          P::::P                      #
+#    H:::::H     H:::::H       y:::::::::y        p:::::p    p::::::pe:::::::e            r:::::r                 T:::::T          P::::P                      #
+#  HH::::::H     H::::::HH      y:::::::y         p:::::ppppp:::::::pe::::::::e           r:::::r               TT:::::::TT      PP::::::PP                    #
+#  H:::::::H     H:::::::H       y:::::y          p::::::::::::::::p  e::::::::eeeeeeee   r:::::r               T:::::::::T      P::::::::P                    #
+#  H:::::::H     H:::::::H      y:::::y           p::::::::::::::pp    ee:::::::::::::e   r:::::r               T:::::::::T      P::::::::P                    #
+#  HHHHHHHHH     HHHHHHHHH     y:::::y            p::::::pppppppp        eeeeeeeeeeeeee   rrrrrrr               TTTTTTTTTTT      PPPPPPPPPP                    #
+#                             y:::::y             p:::::p                                                                                                      #
+#                            y:::::y              p:::::p                                                                                                      #
+#                           y:::::y              p:::::::p                                                                                                     # 
+#                          y:::::y               p:::::::p                                                                                                     #
+#                         yyyyyyy                p:::::::p                                                                                                     #
+#                                                ppppppppp                                                                                                     #
+#==============================================================================================================================================================#
+#
+# Vietnamese Language File for HyperTP
+
+prefix: "&6[HyperTP]&r"
+
+no-permission: "&cBạn không có quyền sử dụng lệnh này."
+player-not-found: "&cKhông tìm thấy người chơi."
+player-offline: "&cNgười chơi hiện đang ngoại tuyến."
+home-not-found: "&cKhông tìm thấy home &6{home}&c."
+home-already-exists: "&cHome &6{home}&c đã tồn tại."
+home-limit-reached: "&cBạn đã đạt đến giới hạn số home (&6{max}&c)."
+home-set: "&aĐã đặt home &6{home}&a thành công."
+home-deleted: "&aĐã xóa home &6{home}&a thành công."
+teleporting: "&eĐang dịch chuyển trong &6{seconds}&e giây..."
+teleport-cancelled: "&cĐã hủy dịch chuyển do di chuyển."
+cooldown-active: "&cBạn phải chờ &6{seconds}&c giây trước khi sử dụng lại."
+tpa-request-sent: "&aĐã gửi yêu cầu dịch chuyển tới &6{player}&a."
+tpa-request-received: "&6{player}&e đã gửi yêu cầu dịch chuyển. Sử dụng &a/tpaccept&e hoặc &c/tpdeny&e."
+tpa-request-timeout: "&cYêu cầu dịch chuyển đã hết hạn."
+tpa-no-request: "&cBạn không có yêu cầu dịch chuyển nào đang chờ."
+tpa-accepted: "&aĐã chấp nhận yêu cầu dịch chuyển."
+tpa-denied: "&cĐã từ chối yêu cầu dịch chuyển."
+tpa-accepted-by: "&6{player}&a đã chấp nhận yêu cầu dịch chuyển của bạn."
+tpa-denied-by: "&6{player}&c đã từ chối yêu cầu dịch chuyển của bạn."
+back-no-location: "&cKhông tìm thấy vị trí trước đó."
+rtp-success: "&aDịch chuyển ngẫu nhiên thành công!"
+rtp-search: "&eĐang tìm kiếm vị trí an toàn..."
+rtp-failed: "&cKhông thể tìm thấy vị trí an toàn. Thử lại sau."
+rtp-world-disabled: "&cRTP không được kích hoạt trong thế giới này."  # NEW
+gui-cooldown: "&cVui lòng chờ trước khi mở GUI lại."
+invalid-arguments: "&cTham số không hợp lệ. Sử dụng: {usage}"
+self-teleport: "&cBạn không thể dịch chuyển đến chính mình."
+help-format: "&e/{command} &7- {description}"
+feature-disabled: "&cTính năng này hiện đang bị tắt."
+reload-success: "&aĐã tải lại cấu hình plugin thành công!"
+reload-error: "&cLỗi khi tải lại cấu hình: {error}"

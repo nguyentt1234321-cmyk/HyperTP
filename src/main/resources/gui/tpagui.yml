@@ -1,0 +1,41 @@
+# TPA GUI Configuration
+title: "&6TPA Requests"
+size: 54
+
+background:
+  material: "BLUE_STAINED_GLASS_PANE"
+  slots: [0,1,2,3,4,5,6,7,8,9,17,18,26,27,35,36,44,45,46,47,48,49,50,51,52,53]
+
+items:
+  tpa-to:
+    material: "ENDER_PEARL"
+    display-name: "&aTPA To Player"
+    lore:
+      - "&7Request to teleport to player"
+      - ""
+      - "&eClick on a player head to send request"
+    custom-model-data: 0
+
+  tpa-here:
+    material: "ENDER_EYE"
+    display-name: "&bTPA Here"
+    lore:
+      - "&7Request player to teleport to you"
+      - ""
+      - "&eClick on a player head to send request"
+    custom-model-data: 0
+
+  close:
+    material: "BARRIER"
+    display-name: "&cClose"
+    lore:
+      - "&7Close the menu"
+    custom-model-data: 0
+
+player-head:
+  display-name: "&a{player}"
+  lore:
+    - "&7Click to send TPA request"
+    - ""
+    - "&eLeft-Click: &6TPA To"
+    - "&eRight-Click: &6TPA Here"

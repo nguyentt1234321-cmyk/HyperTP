@@ -1,0 +1,61 @@
+#==============================================================================================================================================================#                                                                                                                                                   
+#                                                                                                                                                              #
+#  HHHHHHHHH     HHHHHHHHH                                                                                TTTTTTTTTTTTTTTTTTTTTTTPPPPPPPPPPPPPPPPP             #
+#  H:::::::H     H:::::::H                                                                                T:::::::::::::::::::::TP::::::::::::::::P            #
+#  H:::::::H     H:::::::H                                                                                T:::::::::::::::::::::TP::::::PPPPPP:::::P           #
+#  HH::::::H     H::::::HH                                                                                T:::::TT:::::::TT:::::TPP:::::P     P:::::P          #
+#    H:::::H     H:::::Hyyyyyyy           yyyyyyyppppp   ppppppppp       eeeeeeeeeeee    rrrrr   rrrrrrrrrTTTTTT  T:::::T  TTTTTT  P::::P     P:::::P          #
+#    H:::::H     H:::::H y:::::y         y:::::y p::::ppp:::::::::p    ee::::::::::::ee  r::::rrr:::::::::r       T:::::T          P::::P     P:::::P          #
+#    H::::::HHHHH::::::H  y:::::y       y:::::y  p:::::::::::::::::p  e::::::eeeee:::::eer:::::::::::::::::r      T:::::T          P::::PPPPPP:::::P           #
+#    H:::::::::::::::::H   y:::::y     y:::::y   pp::::::ppppp::::::pe::::::e     e:::::err::::::rrrrr::::::r     T:::::T          P:::::::::::::PP            # 
+#    H:::::::::::::::::H    y:::::y   y:::::y     p:::::p     p:::::pe:::::::eeeee::::::e r:::::r     r:::::r     T:::::T          P::::PPPPPPPPP              #
+#    H::::::HHHHH::::::H     y:::::y y:::::y      p:::::p     p:::::pe:::::::::::::::::e  r:::::r     rrrrrrr     T:::::T          P::::P                      #
+#    H:::::H     H:::::H      y:::::y:::::y       p:::::p     p:::::pe::::::eeeeeeeeeee   r:::::r                 T:::::T          P::::P                      #
+#    H:::::H     H:::::H       y:::::::::y        p:::::p    p::::::pe:::::::e            r:::::r                 T:::::T          P::::P                      #
+#  HH::::::H     H::::::HH      y:::::::y         p:::::ppppp:::::::pe::::::::e           r:::::r               TT:::::::TT      PP::::::PP                    #
+#  H:::::::H     H:::::::H       y:::::y          p::::::::::::::::p  e::::::::eeeeeeee   r:::::r               T:::::::::T      P::::::::P                    #
+#  H:::::::H     H:::::::H      y:::::y           p::::::::::::::pp    ee:::::::::::::e   r:::::r               T:::::::::T      P::::::::P                    #
+#  HHHHHHHHH     HHHHHHHHH     y:::::y            p::::::pppppppp        eeeeeeeeeeeeee   rrrrrrr               TTTTTTTTTTT      PPPPPPPPPP                    #
+#                             y:::::y             p:::::p                                                                                                      #
+#                            y:::::y              p:::::p                                                                                                      #
+#                           y:::::y              p:::::::p                                                                                                     # 
+#                          y:::::y               p:::::::p                                                                                                     #
+#                         yyyyyyy                p:::::::p                                                                                                     #
+#                                                ppppppppp                                                                                                     #
+#==============================================================================================================================================================#
+#
+# English Language File for HyperTP
+
+prefix: "&6[HyperTP]&r"
+
+no-permission: "&cYou don't have permission to use this command."
+player-not-found: "&cPlayer not found."
+player-offline: "&cThat player is currently offline."
+home-not-found: "&cHome &6{home}&c not found."
+home-already-exists: "&cHome &6{home}&c already exists."
+home-limit-reached: "&cYou have reached the maximum number of homes (&6{max}&c)."
+home-set: "&aHome &6{home}&a set successfully."
+home-deleted: "&aHome &6{home}&a deleted successfully."
+teleporting: "&eTeleporting in &6{seconds}&e seconds..."
+teleport-cancelled: "&cTeleport cancelled due to movement."
+cooldown-active: "&cYou must wait &6{seconds}&c seconds before using this again."
+tpa-request-sent: "&aTeleport request sent to &6{player}&a."
+tpa-request-received: "&6{player}&e has sent you a teleport request. Use &a/tpaccept&e or &c/tpdeny&e."
+tpa-request-timeout: "&cTeleport request has timed out."
+tpa-no-request: "&cYou don't have any pending teleport requests."
+tpa-accepted: "&aTeleport request accepted."
+tpa-denied: "&cTeleport request denied."
+tpa-accepted-by: "&6{player}&a accepted your teleport request."
+tpa-denied-by: "&6{player}&c denied your teleport request."
+back-no-location: "&cNo previous location found."
+rtp-success: "&aRandom teleport successful!"
+rtp-search: "&eSearching for a safe location..."
+rtp-failed: "&cFailed to find a safe location. Try again."
+rtp-world-disabled: "&cRTP is not enabled in this world."  # NEW
+gui-cooldown: "&cPlease wait before opening GUI again."
+invalid-arguments: "&cInvalid arguments. Usage: {usage}"
+self-teleport: "&cYou cannot teleport to yourself."
+help-format: "&e/{command} &7- {description}"
+feature-disabled: "&cThis feature is currently disabled."
+reload-success: "&aPlugin configuration reloaded successfully!"
+reload-error: "&cError reloading configuration: {error}"
