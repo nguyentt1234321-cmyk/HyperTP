@@ -77,4 +77,9 @@ public class ColorUtil {
     public static String time(int seconds) {
         return "&e" + seconds + "&r";
     }
+
+    // ✅ Thêm hàm này để tương thích với LanguageManager
+    public static String format(String message) {
+        return translateColorCodes(message);
+    }
 }
